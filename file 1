@@ -1,0 +1,92 @@
+x = 5 + (7 * 5 / 8)
+y = 3 ** 5
+z = x / y
+print('value:' , z)
+
+x = int(input('Введите скорость: '))
+y = int(input('Введите время: '))
+z = 109
+#s = x * y 
+if s < z:
+	print('Км:' , s)
+if s >= z: 
+    print('Км:' , s - z)
+
+x1 = float(input('Число 1:' ,))	
+x2 = float(input('Число 2:' ,))	
+if x1 > x2:
+	print('True:' , x1)
+if x1 <= x2:
+	print('False:' , x2)
+
+x = int(input('Число 1:' ,))
+y = int(input('Число 2:' ,))
+z = int(input('Число 3:' ,))
+
+if x == y == z:
+	print('Ответ' , 3)
+elif (x!=z):
+	print('Ответ' , 2)
+elif (y!=z):
+	print('Ответ' , 2)
+	
+
+elif (x > y == z):
+	print('Ответ' , 2)
+elif (x == y > z):
+	print('Ответ' , 2)
+elif (x < y == z):
+	print('Ответ' , 2)
+elif (x == y < z):
+	print('Ответ' , 2)
+else:
+	print('Ответ' , 0)	
+
+
+
+x = int(input('Введите от 1 до 8:' ,))
+y = int(input('Введите от 1 до 8:' ,))
+z = int(input('Введите от 1 до 8:' ,))
+v = int(input('Введите от 1 до 8:' ,))
+
+if (abs(x - y) == 1) & (abs(z - v) == 1):
+	print('Yes')
+elif (abs(x - z) == 1) & (abs(x - v) == 1):	
+	print('Yes')
+else:
+	print('No')
+
+
+
+x1 = int(input('Введите:' ,))
+y1 = int(input('Введите:' ,))
+x2 = int(input('Введите:' ,))
+y2 = int(input('Введите:' ,))
+
+if (abs(x1 - x2) == 2):
+	print('Yes')
+elif (abs(y1 - y1) == 2):
+	print('Yes')
+else:
+	print('No')
+
+x = int(input('Введите скорость: '))
+y = int(input('Введите время: '))
+z = 109
+s = x * y 
+if s % z:
+    print('Км:' , s % z)
+
+x = int(input('Число 1:' ,))
+y = int(input('Число 2:' ,))
+z = int(input('Число 3:' ,))
+
+if x == y == z:
+	print('Ответ' , 3)
+elif (x == y!= z):
+	print('Ответ' , 2)
+elif (x != y == z):
+	print('Ответ' , 2)
+else:
+	print('Ответ' , 0)	
+
